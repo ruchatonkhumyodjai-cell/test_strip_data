@@ -11,7 +11,7 @@ plt.imshow(img_gray,cmap='gray')
 
 FT=np.fft.fft2(img_gray)
 FT_shift=np.fft.fftshift(FT)
-plt.imshow(20*np.log(np.abs(FT_shift)),cmap='gray')
+plt.imshow(20*np.log(np.abs(FT_shift)),cmap='gray') print ("hellow world")
 
 #LPF
 [row,col]=img_gray.shape
